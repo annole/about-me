@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Impact, Arial, Helvetica, sans-serif;
+            padding: 10px 70px;
+            border-bottom: 1px solid gray;
+        }
+        .account__title{
+            padding: 0 7px;
+            font-size: 13px;
+            font-family: Impact, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        .account{
+            box-shadow: 0 5px 10px silver;
+            border-radius: 40px;
+            padding: 3px;
+            display: flex;
+            align-items: center;
+        }
+        .account__h{
+            height: 10px;
+        }
+        .account__box{
+            height: 26px;
+            width: 26px;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+
+        }
+        .navigation__link{
+            font-style: 13px;
+            font-weight: 400;
+            text-decoration: none;
+            color: black;
+        }
+        .navigation__link:hover{
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="./img/logo.svg" alt="" class="logo">
+        <nav class="navigation">
+            <a href="" class="navigation__link">Фильмы</a>
+            <a href="" class="navigation__link">Сохраненные фильмы</a>
+            
+       </nav>
+        <span class="account">
+            <span class="account__title">Аккаунт</span>
+            <span class="account__box">
+                <img src="./img/h.svg" alt="" class="account__icon">
+            </span>
+        </span>
+    </header>
+</body>
+</html>
